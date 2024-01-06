@@ -10,15 +10,70 @@
     <meta data-rh="true" property="og:url" content="https://tolux-nav-bar.netlify.app/">
     <meta data-rh="true" property="og:image" content="https://thumbs.dreamstime.com/z/man-sitting-desk-looking-computer-screen-fat-smiling-isolated-gray-40355335.jpg?w=992">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./tolux001.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/tolux001.png" />
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/7e0306378c.js" crossorigin="anonymous" async></script>
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
-    
+    <nav id="nav">
+      <img src="./images/logo.svg" class="nav-logo" alt="logo">
+      <button class="sidebar-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="./images/logo.svg" alt="logo">
+        <button class="close-btn">
+          <i class="fa-solid fa-times"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
